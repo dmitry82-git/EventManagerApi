@@ -1,0 +1,61 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- .NET build output ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+*.dll
+*.exe
+*.pdb
+*.nupkg
+
+# --- Test results and coverage ---
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- VS Code (keep shared config) ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# --- Secrets and local config ---
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+.env
+.env.*
+
+# --- Local databases ---
+*.db
+*.sqlite
+*.sqlite3
